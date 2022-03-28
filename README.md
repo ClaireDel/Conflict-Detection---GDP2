@@ -31,7 +31,7 @@ Fig: 1 person inference
 ## 3. Classification Phase
 ### Feature Approach
 - Training
-- Testing
+- Testing / test set
 - Evaluation
 
 ...NOTES: prepro / training / Demo photos and videos gif
@@ -42,7 +42,7 @@ Fig: 1 person inference
 
 ### Keypoint Approach
 - Training
-- Testing
+- Testing / test set
 - Evaluation
 
 ...NOTES: prepro / training / Demo photos and videos gif
