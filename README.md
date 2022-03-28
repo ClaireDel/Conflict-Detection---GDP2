@@ -42,7 +42,7 @@ Fig: 1 person inference
 
 
 ### Keypoint Approach
-- Data Pre-processing <br /> 
+- Data Pre-processing <br/> 
 Storing the key points in CSV files after normalization on pre-cropped images
 ```
 python Segmentation_phase/pre_processing.py
