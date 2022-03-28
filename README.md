@@ -37,6 +37,7 @@ Fig: 1 person inference
 
 ...NOTES:  Demo photos and videos gif
 crop
+pickles
 ![1 person](inference_1.jpg)
 Fig: 1 person inference
 
@@ -44,16 +45,20 @@ Fig: 1 person inference
 ### Keypoint Approach
 - Data Pre-processing <br/> 
 ```
-python Segmentation_phase/pre_processing.py
+python Classification_phase/pre_processing.py
 ```
 Storing the key points in CSV files after normalization on pre-cropped images
 
 - Training
+SVM
+MLP
+
 - Testing / test set
 - Evaluation
 
 ...NOTES: Demo photos and videos gif
 crop
 csv
+pickles 
 ![1 person](inference_1.jpg)
 Fig: 1 person inference
