@@ -59,7 +59,11 @@ Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed 
 ...pickles
 ...plot
 
-- Testing on pictures
+... - Testing on pictures
+```
+python Classification_phase/testing.py
+```
+Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
 
 - Video launch 
 ```
