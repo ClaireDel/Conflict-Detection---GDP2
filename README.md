@@ -24,6 +24,7 @@ python demo/demo.py
 - use --showFps to show the fps (this fps includes the detection part).
 
 ...NOTES: Demo photos and videos gif
+model folder in the drive: ...
 ![1 person](inference_1.jpg)
 Fig: 1 person inference
 
