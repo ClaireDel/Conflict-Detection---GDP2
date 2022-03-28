@@ -31,10 +31,10 @@ Fig: 1 person inference
 
 ## 3. Classification Phase
 ### Feature Approach
-- Preprocessing
-- Training
-- Testing / test set
-- Evaluation
+- ...Preprocessing
+- ...Training
+- ...Testing / test set
+- ...Evaluation
 
 ...NOTES:  Demo photos and videos gif
 crop
@@ -59,7 +59,13 @@ Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed 
 ...pickles
 ...plot
 
-- Evaluation 
+- Testing on pictures
+
+- Video launch 
+```
+python Classification_phase/demo_keypoint_approach.py
+```
+Testing the classifier (SVM or Multi-Layer Perceptron) to obtain real-time predictions on video launch
 
 ...NOTES: Demo photos and videos gif
 ![1 person](inference_1.jpg)
