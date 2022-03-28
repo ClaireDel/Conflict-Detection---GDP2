@@ -3,6 +3,10 @@
 ... INTRO
 
 ## 1. Dataset
+... drive final dataset
+... drive COCO
+[COCO download](http://cocodataset.org/#download), for COCO keypoints training and validation
+
 
 ## 2. Segmentation Phase
 This part consists in the first part of the model using HRNet used to get the predicted key points on each human body presents on an image, a video or a video launch. 
@@ -19,20 +23,29 @@ python demo/demo.py
 - use --write to save the image, camera or video result.
 - use --showFps to show the fps (this fps includes the detection part).
 
-...NOTES: Demo photos and videos 
+...NOTES: Demo photos and videos gif
+![1 person](inference_1.jpg)
+Fig: 1 person inference
 
 ## 3. Classification Phase
 ### Feature Approach
 - Training
 - Testing
 - Evaluation
-NOTES: prepro / training / plot photos / video
+
+...NOTES: prepro / training / Demo photos and videos gif
 crop
+![1 person](inference_1.jpg)
+Fig: 1 person inference
+
 
 ### Keypoint Approach
 - Training
 - Testing
 - Evaluation
-NOTES: prepro / training / plot photos / video
-csv
+
+...NOTES: prepro / training / Demo photos and videos gif
 crop
+csv
+![1 person](inference_1.jpg)
+Fig: 1 person inference
