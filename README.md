@@ -49,12 +49,11 @@ python Classification_phase/pre_processing.py
 ```
 Storing the key points in CSV files after normalization on pre-cropped images
 
-- Training
+- Training and Testing
 SVM
 MLP
 
-- Testing / test set
-- Evaluation
+- Evaluation (graphs)
 
 ...NOTES: Demo photos and videos gif
 crop
