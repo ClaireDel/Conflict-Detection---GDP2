@@ -6,7 +6,8 @@
 ... drive final dataset
 ... drive COCO
 [COCO download](http://cocodataset.org/#download), for COCO keypoints training and validation
-
+...cropped pictures
+...cropped + black-background
 
 ## 2. Segmentation Phase
 This part consists in the first part of the model using HRNet used to get the predicted key points on each human body presents on an image, a video or a video launch. 
@@ -48,16 +49,18 @@ Fig: 1 person inference
 python Classification_phase/pre_processing.py
 ```
 Storing the key points in CSV files after normalization on pre-cropped images
+... csv files
 
-- Training and Testing
-SVM
-MLP
+- Training 
+```
+python Classification_phase/training.py
+```
+Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed data
+...pickles
+...plot
 
-- Evaluation (graphs)
+- Evaluation 
 
 ...NOTES: Demo photos and videos gif
-crop
-csv
-pickles 
 ![1 person](inference_1.jpg)
 Fig: 1 person inference
