@@ -16,9 +16,12 @@ NOTES: all files HRNET / Demo photos and videos
 - Testing
 - Evaluation
 NOTES: prepro / training / plot photos / video
+crop
 
 3.2 KEYPOINT APPROACH
 - Training
 - Testing
 - Evaluation
 NOTES: prepro / training / plot photos / video
+csv
+crop
