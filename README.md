@@ -15,7 +15,7 @@ The same python code 'demo.py' is used for this. The model can be updated but th
 The parse can be updated according to the type of results needed:
 
 ```
-python demo/demo.py
+python Segmentation_phase/demo/demo.py
 ```
 - use --webcam when the input is a real-time camera.
 - use --video [video-path] when the input is a video.
@@ -30,22 +30,29 @@ Fig: 1 person inference
 
 ## 3. Classification Phase
 ### Feature Approach
+- Preprocessing
 - Training
 - Testing / test set
 - Evaluation
 
-...NOTES: prepro / training / Demo photos and videos gif
+...NOTES:  Demo photos and videos gif
 crop
 ![1 person](inference_1.jpg)
 Fig: 1 person inference
 
 
 ### Keypoint Approach
+- Data Pre-processing
+Storing the key points in CSV files after normalization on pre-cropped images
+```
+python Segmentation_phase/pre_processing.py
+```
+
 - Training
 - Testing / test set
 - Evaluation
 
-...NOTES: prepro / training / Demo photos and videos gif
+...NOTES: Demo photos and videos gif
 crop
 csv
 ![1 person](inference_1.jpg)
