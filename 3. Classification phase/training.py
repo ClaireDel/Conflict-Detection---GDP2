@@ -89,7 +89,7 @@ clf.fit(X_train, Y_train)
 
 # Prediction to evaluate accuracy
 y_pred = clf.predict(X_test)
-print('Précision : ' + str(100*(f1_score(Y_test, y_pred, average='micro'))) + " %")
+print('Precision : ' + str(100*(f1_score(Y_test, y_pred, average='micro'))) + " %")
 
 
 # Confusion Matrix
