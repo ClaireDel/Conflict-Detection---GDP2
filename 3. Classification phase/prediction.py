@@ -91,7 +91,3 @@ print('Precision : ' + str(100*(f1_score(y_test, y_pred, average='micro'))) + " 
 plot_confusion_matrix(classifier, X_test, y_test, cmap=plt.cm.Blues) 
 plt.title('Confusion Matrix')
 plt.show()
-
-
-" Normalizer les images"
-# Plotter les résultats (comparer ytest et ypred directement)
