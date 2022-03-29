@@ -187,7 +187,6 @@ def box_to_center_scale(box, model_image_width, model_image_height):
 
     return center, scale
 
-# filename = ''
 
 def parse_args(filename):
     parser = argparse.ArgumentParser(description='Train keypoints network')
