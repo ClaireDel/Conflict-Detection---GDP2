@@ -65,7 +65,7 @@ python Classification_phase/Feature_Approach/demo_feature_approach.py
 ![1 person](inference_1.jpg)
 Fig: 1 person inference
 
-
+ <br/> 
  
 ### Keypoint Approach
 #### Data Pre-processing <br/> 
