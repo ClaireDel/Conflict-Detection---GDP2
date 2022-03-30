@@ -1,6 +1,8 @@
 # Conflict-Detection---GDP2
 
 ... INTRO
+Requirements: Tensorflow for vgg, ...
+Reupload
 
 ## 1. Dataset
 ... drive final dataset
@@ -36,9 +38,34 @@ Fig: 1 person inference
 - ...Testing / test set
 - ...Evaluation
 
+
+- Data Pre-processing <br/> 
+```
+python Classification_phase/Feature_Approach/preprocessing_vgg.py
+```
+Plotting the key points from pre-cropped images on a blackbackground for the training 
+
+- Training 
+```
+python Classification_phase/Feature_Approach/training_vgg.py
+```
+Training the pre-trained model VGG16 by transfer learning using the pre-processed data
+...pickles
+
+... - Testing on pictures
+```
+python Classification_phase/Feature_Approach/prediction_vgg.py
+```
+Testing the Neural Network to obtain predictions on images
+
+- Video launch 
+```
+python Classification_phase/Feature_Approach/demo_feature_approach.py
+```
+Testing the Neural Network to obtain real-time predictions on video launch
+
+
 ...NOTES:  Demo photos and videos gif
-crop
-pickles
 ![1 person](inference_1.jpg)
 Fig: 1 person inference
 
@@ -56,12 +83,10 @@ Storing the key points in CSV files after normalization on pre-cropped images
 python Classification_phase/training.py
 ```
 Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed data
-...pickles
-...plot
 
 ... - Testing on pictures
 ```
-python Classification_phase/testing.py
+python Classification_phase/prediction.py
 ```
 Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
 
