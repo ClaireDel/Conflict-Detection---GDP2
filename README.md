@@ -87,7 +87,7 @@ python Classification_phase/pre_processing.py
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width=200 height=auto> 
   <br/> 
   Fig: Dataset sample
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/csv.jpg" width=200 height=auto> 
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/csv.png" width=200 height=auto> 
   <br/> 
   Fig: CSV sample
 </p>
