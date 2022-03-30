@@ -47,8 +47,8 @@ python Classification_phase/Feature_Approach/preprocessing_vgg.py
 ```
 
 <p align="center">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width=200 height=auto> <br/> 
-  Fig: Example of an image cropped in the dataset
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop_black.jpg" width=200 height=auto> <br/> 
+  Fig: Dataset sample
 </p>
 
 #### Training <br/> 
@@ -83,7 +83,14 @@ Fig: 1 person inference
 ```
 python Classification_phase/pre_processing.py
 ```
-... csv files
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width=200 height=auto> 
+  <br/> 
+  Fig: Dataset sample
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/csv.jpg" width=200 height=auto> 
+  <br/> 
+  Fig: CSV sample
+</p>
 
 #### Training <br/> 
 - Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed data
@@ -96,6 +103,11 @@ python Classification_phase/training.py
 ```
 python Classification_phase/prediction.py
 ```
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction.jpg" width=200 height=auto> 
+  <br/> 
+  Fig: Image prediction example
+</p>
 
 #### Video launch <br/> 
 - Testing the classifier (SVM or Multi-Layer Perceptron) to obtain real-time predictions on video launch
