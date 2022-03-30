@@ -48,7 +48,7 @@ python Classification_phase/Feature_Approach/preprocessing_vgg.py
 ```
 
 <p align="center">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop_black.jpg" width=200 height=auto> <br/> 
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop_black.jpg" width=150 height=auto> <br/> 
   Fig: Dataset sample
 </p>
 
