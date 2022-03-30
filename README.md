@@ -47,8 +47,8 @@ python Classification_phase/Feature_Approach/preprocessing_vgg.py
 ```
 
 <p align="center">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width=400 height=auto> <br/> 
-  Fig: Image cropped
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width=200 height=auto> <br/> 
+  Fig: Example of an image cropped in the dataset
 </p>
 
 #### Training <br/> 
