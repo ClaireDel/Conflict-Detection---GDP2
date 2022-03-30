@@ -83,18 +83,8 @@ Fig: 1 person inference
 ```
 python Classification_phase/pre_processing.py
 ```
-<p align="left">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width=200 height=auto> 
-  <br/> 
-  Fig: Dataset sample
-</p>
-<p align="right">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/csv.png" width=400 height=auto> 
-  <br/> 
-  Fig: CSV sample
-</p>
 
-| ```Tracking Pipeline``` | ```Time series data``` |
+| ```Dataset sample``` | ```Data associated in the CSV file``` |
 |:---:|:---:|
 |<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width="150%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/csv.png" width="150%" height="30%">|
 
