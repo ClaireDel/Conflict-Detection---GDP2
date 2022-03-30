@@ -30,7 +30,7 @@ python Segmentation_phase/demo/demo.py
 model folder in the drive: ...
 
 <p align="center">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/seg_airport.jpg" width=400 height=auto>
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/seg_airport.jpg" width=400 height=auto> <br/> 
   Fig: Example of segmentation
 </p>
 
