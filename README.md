@@ -83,11 +83,13 @@ Fig: 1 person inference
 ```
 python Classification_phase/pre_processing.py
 ```
-<p align="center">
+<p align="left">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width=200 height=auto> 
   <br/> 
   Fig: Dataset sample
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/csv.png" width=200 height=auto> 
+</p>
+<p align="right">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/csv.png" width=400 height=auto> 
   <br/> 
   Fig: CSV sample
 </p>
