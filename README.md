@@ -28,8 +28,9 @@ python Segmentation_phase/demo/demo.py
 
 ...NOTES: Demo photos and videos gif
 model folder in the drive: ...
-![1 person](inference_1.jpg)
-Fig: 1 person inference
+
+![1 person](seg_airport.jpg)
+Fig: Example of segmentation
 
 
 ## 3. Classification Phase
