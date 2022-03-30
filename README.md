@@ -33,11 +33,6 @@ Fig: 1 person inference
 
 ## 3. Classification Phase
 ### Feature Approach
-- ...Preprocessing
-- ...Training
-- ...Testing / test set
-- ...Evaluation
-
 
 - Data Pre-processing <br/> 
 ```
