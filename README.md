@@ -31,6 +31,7 @@ model folder in the drive: ...
 ![1 person](inference_1.jpg)
 Fig: 1 person inference
 
+
 ## 3. Classification Phase
 ### Feature Approach
 
@@ -39,7 +40,6 @@ Fig: 1 person inference
 ```
 python Classification_phase/Feature_Approach/preprocessing_vgg.py
 ```
-
 
 #### Training <br/> 
 - Training the pre-trained model VGG16 by transfer learning using the pre-processed data
@@ -55,21 +55,18 @@ python Classification_phase/Feature_Approach/training_vgg.py
 python Classification_phase/Feature_Approach/prediction_vgg.py
 ```
 
-
-
 #### Video launch <br/> 
 - Testing the Neural Network to obtain real-time predictions on video launch
 ```
 python Classification_phase/Feature_Approach/demo_feature_approach.py
 ```
 
-
-
 ...NOTES:  Demo photos and videos gif
 ![1 person](inference_1.jpg)
 Fig: 1 person inference
 
-
+ <br/> 
+ 
 ### Keypoint Approach
 #### Data Pre-processing <br/> 
 - Storing the key points in CSV files after normalization on pre-cropped images
@@ -78,20 +75,17 @@ python Classification_phase/pre_processing.py
 ```
 ... csv files
 
-
 #### Training <br/> 
 - Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed data
 ```
 python Classification_phase/training.py
 ```
 
-
 #### Testing on pictures <br/> 
 - Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
 ```
 python Classification_phase/prediction.py
 ```
-
 
 #### Video launch <br/> 
 - Testing the classifier (SVM or Multi-Layer Perceptron) to obtain real-time predictions on video launch
