@@ -41,24 +41,24 @@ python Classification_phase/Feature_Approach/preprocessing_vgg.py
 ```
 
 
-- Training 
-Training the pre-trained model VGG16 by transfer learning using the pre-processed data
+#### Training <br/> 
+- Training the pre-trained model VGG16 by transfer learning using the pre-processed data
 ```
 python Classification_phase/Feature_Approach/training_vgg.py
 ```
 ...pickles
 
 
-- Testing on pictures
-Testing the Neural Network to obtain predictions on images
+#### Testing on pictures <br/> 
+- Testing the Neural Network to obtain predictions on images
 ```
 python Classification_phase/Feature_Approach/prediction_vgg.py
 ```
 
 
 
-- Video launch 
-Testing the Neural Network to obtain real-time predictions on video launch
+#### Video launch <br/> 
+- Testing the Neural Network to obtain real-time predictions on video launch
 ```
 python Classification_phase/Feature_Approach/demo_feature_approach.py
 ```
@@ -71,31 +71,30 @@ Fig: 1 person inference
 
 
 ### Keypoint Approach
-- Data Pre-processing <br/> 
-Storing the key points in CSV files after normalization on pre-cropped images
+#### Data Pre-processing <br/> 
+- Storing the key points in CSV files after normalization on pre-cropped images
 ```
 python Classification_phase/pre_processing.py
 ```
 ... csv files
 
 
-- Training 
-Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed data
+#### Training <br/> 
+- Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed data
 ```
 python Classification_phase/training.py
 ```
 
 
-
-- Testing on pictures
-Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
+#### Testing on pictures <br/> 
+- Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
 ```
 python Classification_phase/prediction.py
 ```
 
 
-- Video launch 
-Testing the classifier (SVM or Multi-Layer Perceptron) to obtain real-time predictions on video launch
+#### Video launch <br/> 
+- Testing the classifier (SVM or Multi-Layer Perceptron) to obtain real-time predictions on video launch
 ```
 python Classification_phase/demo_keypoint_approach.py
 ```
