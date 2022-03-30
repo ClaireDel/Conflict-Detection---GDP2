@@ -30,7 +30,12 @@ python Segmentation_phase/demo/demo.py
 model folder in the drive: ...
 
 ![pictures/seg_airport.jpg](seg_airport.jpg)
+
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/tree/main/pictures/seg_airport.jpg" width=400 height=auto>
+</p>
 Fig: Example of segmentation
+
 
 
 ## 3. Classification Phase
