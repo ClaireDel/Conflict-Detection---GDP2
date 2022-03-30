@@ -5,11 +5,9 @@ Requirements: Tensorflow for vgg, ...
 Reupload
 
 ## 1. Dataset
-... drive final dataset
-... drive COCO
 [COCO download](http://cocodataset.org/#download), for COCO keypoints training and validation
-...cropped pictures
-...cropped + black-background
+
+[Dataset download](https://drive.google.com/file/d/1OI0GvEqExMLr2xN_opSNhhivH1WqNF3B/view?usp=sharing), for the dataset used (images cropped, and blackbackgrounds)
 
 ## 2. Segmentation Phase
 This part consists in the first part of the model using HRNet used to get the predicted key points on each human body presents on an image, a video or a video launch. 
