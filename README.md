@@ -34,8 +34,8 @@ Fig: 1 person inference
 ## 3. Classification Phase
 ### Feature Approach
 
-- Data Pre-processing <br/> 
-Plotting the key points from pre-cropped images on a blackbackground for the training 
+#### Data Pre-processing <br/> 
+- Plotting the key points from pre-cropped images on a blackbackground for the training 
 ```
 python Classification_phase/Feature_Approach/preprocessing_vgg.py
 ```
