@@ -2,7 +2,7 @@
 
 ... INTRO
 Requirements: Tensorflow for vgg, ...
-Reupload
+REUPLOAD
 
 ## 1. Dataset
 [COCO download](http://cocodataset.org/#download), for COCO keypoints training and validation
