@@ -29,7 +29,7 @@ python Segmentation_phase/demo/demo.py
 ...NOTES: Demo photos and videos gif
 model folder in the drive: ...
 
-![seg_airport.jpg](seg_airport.jpg)
+![pictures/seg_airport.jpg](seg_airport.jpg)
 Fig: Example of segmentation
 
 
