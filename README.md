@@ -26,7 +26,7 @@ python Segmentation_phase/demo/demo.py
 - use --write to save the image, camera or video result.
 - use --showFps to show the fps (this fps includes the detection part).
 
-...NOTES: Demo photos and videos gif
+...NOTES: Demo videos gif
 model folder in the drive: ...
 
 <p align="center">
@@ -45,6 +45,11 @@ model folder in the drive: ...
 ```
 python Classification_phase/Feature_Approach/preprocessing_vgg.py
 ```
+
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width=400 height=auto> <br/> 
+  Fig: Image cropped
+</p>
 
 #### Training <br/> 
 - Training the pre-trained model VGG16 by transfer learning using the pre-processed data
