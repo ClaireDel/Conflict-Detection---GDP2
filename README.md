@@ -20,7 +20,7 @@ expliquer les chemins et param
 
 | ```Original image``` | ```Image cropped``` |
 |:---:|:---:|
-|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/image.png" width="120" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/image_crop.png" width="150%" height="30%">|
+|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/image.png" width="120%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/image_crop.png" width="150%" height="30%">|
 
 
 
