@@ -23,7 +23,13 @@
 
 ## 2. Segmentation Phase
 This part consists in the first part of the model using HRNet used to get the predicted key points on each human body presents on an image, a video or a video launch. 
+
+#### Utilisation <br/> 
 The same python code 'demo.py' is used for this. The model can be updated but the one used by default is in demo/inference-config.yaml
+
+[Models required](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr): Need to download the models folder and place it in the running folder according to the following architecture: 
+
+... ARCHITECTURE
 
 The parse can be updated according to the type of results needed:
 
@@ -35,10 +41,6 @@ python Segmentation_phase/demo/demo.py
 - use --image [image-path] when the input is an image.
 - use --write to save the image, camera or video result.
 - use --showFps to show the fps (this fps includes the detection part).
-
-[Models required](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr): Need to download the models folder and place it in the running folder according to the following architecture: 
-
-... ARCHITECTURE
 
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/seg_airport.jpg" width=400 height=auto> <br/> 
