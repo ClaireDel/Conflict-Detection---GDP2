@@ -1,6 +1,8 @@
 # Conflict-Detection---GDP2
 
-... INTRO
+Airports are getting smarter – not just on the passenger side, but also on the maintenance and operations side. This is because operations are getting more complex, there are new threats from both humans and autonomous machines, and human operators are often working alongside robots in potentially safety-critical environments.  
+
+The project designs, implements and tests a system for the detection of multiple-humans (crowds) for a surveillance system in a smart airport scenario. 
 
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/intro.jpg" width=400 height=auto> <br/> 
