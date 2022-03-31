@@ -1,11 +1,8 @@
 # Conflict-Detection---GDP2
 
 ... INTRO
-Requirements: Tensorflow for vgg, ...
-REUPLOAD
-read me intermediaire
-fichiers à la source à chaque fois
-expliquer les chemins et param
+... Requirements: Tensorflow for vgg, ...
+... read me intermediaire ?
 
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/intro.jpg" width=400 height=auto> <br/> 
@@ -39,8 +36,9 @@ python Segmentation_phase/demo/demo.py
 - use --write to save the image, camera or video result.
 - use --showFps to show the fps (this fps includes the detection part).
 
-...NOTES: 
-model folder in the drive: ...
+[Models required](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr): Need to download the models folder and place it in the running folder according to the following architecture: 
+
+... ARCHITECTURE
 
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/seg_airport.jpg" width=400 height=auto> <br/> 
