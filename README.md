@@ -15,6 +15,12 @@ The project designs, implements and tests a system for the detection of multiple
 
 [Dataset download](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr):  Original and cleaned dataset (images cropped + black backgrounds)
 
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/dataset_repartition.jpg" width=400 height=auto> <br/> 
+  Fig: Dataset repartition
+</p>
+
+
 | ```Original image``` | ```Image cropped``` |
 |:---:|:---:|
 |<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/image.png" width="70%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/image_crop.png" width="100%" height="30%">|
