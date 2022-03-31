@@ -7,6 +7,12 @@ read me intermediaire
 fichiers à la source à chaque fois
 expliquer les chemins et param
 
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/pictures.jpg" width=400 height=auto> <br/> 
+  Fig: Example of segmentation
+</p>
+
+
 ## 1. Dataset
 [COCO download](http://cocodataset.org/#download), for COCO keypoints training and validation
 
