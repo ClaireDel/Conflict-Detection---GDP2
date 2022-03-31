@@ -120,9 +120,9 @@ python Classification_phase/prediction.py
 python Classification_phase/demo_keypoint_approach.py
 ```
 
-| ```Shooting``` | ```?``` |
+| ```Shooting``` | ```Punching``` |
 |:---:|:---:|
-|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/shooting.gif" width="150%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/shooting.gif" width="150%" height="30%">|
+|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/shooting.gif" width="150%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/punching.gif" width="150%" height="30%">|
 
 
 ...NOTES: Demo photos and videos gif
