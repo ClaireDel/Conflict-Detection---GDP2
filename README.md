@@ -106,12 +106,12 @@ python Classification_phase/pre_processing.py
 ```
 python Classification_phase/training.py
 ```
+
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/confusionmatrix_svm.png" width=200 height=auto> <br/> 
   Fig: Confusion Matrix for SVM
-</p>
 
-### Results 
+#### Results 
 | Arch               | Precision | Recall | F1-score | 
 |--------------------|------|----------|-------|
 | Normal    | 94 |     98 |  89.0 |  96 | 
@@ -119,6 +119,8 @@ python Classification_phase/training.py
 | Accuracy    |     |     |  94 |  
 | Macro-average | 94 |     92 |  93 |  
 | Weighted-Average | 94 |     94 |  94 |  
+  
+</p>
 
 #### Testing on pictures <br/> 
 - Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
