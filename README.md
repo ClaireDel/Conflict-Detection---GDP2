@@ -125,7 +125,7 @@ python Classification_phase/demo_keypoint_approach.py
 |<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/shooting.gif" width="150%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/punching.gif" width="150%" height="30%">|
 
 <p align="center">
-| ```Shooting``` | ```Punching``` |
-|:---:|:---:|
-|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/shooting.gif" width="150%" height="30%">|
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/shooting.gif" width="150%" height="30%">
+  <br/> 
+  Fig: Multi-fight inference
 <p>
