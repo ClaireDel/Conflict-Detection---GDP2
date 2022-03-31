@@ -111,6 +111,14 @@ python Classification_phase/training.py
   Fig: Confusion Matrix for SVM
 </p>
 
+### Results 
+| Arch               | Precision | Recall | F1-score | 
+|--------------------|------|----------|-------|
+| Normal    | 94 |     98 |  89.0 |  96 | 
+| Fight   | 95 |     85 |  90 |  
+| Accuracy    |     |     |  94 |  
+| Macro-average | 94 |     92 |  93 |  
+| Weighted-Average | 94 |     94 |  94 |  
 
 #### Testing on pictures <br/> 
 - Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
