@@ -26,7 +26,7 @@ This part consists in the first part of the model using HRNet used to get the pr
 ### Utilisation <br/> 
 [Models required](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr): Need to download the models folder and place it in the running folder according to the following architecture: 
 
-###
+'''
 ${POSE_ROOT}
 ├── data
 ├── experiments
@@ -45,7 +45,7 @@ ${POSE_ROOT}
 ├── **model.h5**
 ├── **model.pickle**
 ├── **demo.py**
-
+'''
 
 ### Running <br/> 
 The same python code 'demo.py' is used for this part. The model can be updated but the one used by default is in 'demo/inference-config.yaml'. 
