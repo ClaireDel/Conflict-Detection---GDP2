@@ -106,6 +106,11 @@ python Classification_phase/pre_processing.py
 ```
 python Classification_phase/training.py
 ```
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/confusionmatrix_svm.png" width=400 height=auto> <br/> 
+  Fig: Confusion Matrix for SVM
+</p>
+
 
 #### Testing on pictures <br/> 
 - Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
