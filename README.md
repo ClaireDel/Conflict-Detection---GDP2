@@ -111,14 +111,14 @@ python Classification_phase/training.py
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/confusionmatrix_svm.png" width=200 height=auto> <br/> 
   Fig: Confusion Matrix for SVM
 
-#### Results 
+- Results 
 | Arch               | Precision | Recall | F1-score | 
-|--------------------|------|----------|-------|
-| Normal    | 94 |     98 |  89.0 |  96 | 
-| Fight   | 95 |     85 |  90 |  
-| Accuracy    |     |     |  94 |  
-| Macro-average | 94 |     92 |  93 |  
-| Weighted-Average | 94 |     94 |  94 |  
+|--------------------|-----------|--------|----------|
+| Normal             |        94 |     98 |       96 | 
+| Fight              |        95 |     85 |       90 |  
+| Accuracy           |           |        |       94 |  
+| Macro-average      |        94 |     92 |       93 |  
+| Weighted-Average   |        94 |     94 |       94 |  
   
 </p>
 
