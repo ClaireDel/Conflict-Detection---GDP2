@@ -1,8 +1,6 @@
 # Conflict-Detection---GDP2
 
 ... INTRO
-... Requirements: Tensorflow for vgg, ...
-... read me intermediaire ?
 
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/intro.jpg" width=400 height=auto> <br/> 
