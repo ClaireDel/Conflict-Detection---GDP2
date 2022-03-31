@@ -69,6 +69,7 @@ python Classification_phase/Feature_Approach/preprocessing_vgg.py
 ```
 python Classification_phase/Feature_Approach/training_vgg.py
 ```
+[Model download](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr): Model trained for using in the testing
 
 #### Testing on pictures <br/> 
 - Testing the Neural Network to obtain predictions on images
