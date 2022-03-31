@@ -18,6 +18,12 @@ expliquer les chemins et param
 
 [Dataset download](https://drive.google.com/file/d/1OI0GvEqExMLr2xN_opSNhhivH1WqNF3B/view?usp=sharing), for the dataset used (images cropped + black backgrounds)
 
+| ```Original image``` | ```Image cropped``` |
+|:---:|:---:|
+|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/image.jpg" width="150%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/image_crop.png" width="150%" height="30%">|
+
+
+
 ## 2. Segmentation Phase
 This part consists in the first part of the model using HRNet used to get the predicted key points on each human body presents on an image, a video or a video launch. 
 The same python code 'demo.py' is used for this. The model can be updated but the one used by default is in demo/inference-config.yaml
