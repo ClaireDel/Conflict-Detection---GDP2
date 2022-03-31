@@ -24,12 +24,13 @@
 ## 2. Segmentation Phase
 This part consists in the first part of the model using HRNet used to get the predicted key points on each human body presents on an image, a video or a video launch. 
 
-#### Utilisation <br/> 
-The same python code 'demo.py' is used for this. The model can be updated but the one used by default is in demo/inference-config.yaml
-
+### Utilisation <br/> 
 [Models required](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr): Need to download the models folder and place it in the running folder according to the following architecture: 
 
 ... ARCHITECTURE
+
+### Running <br/> 
+The same python code 'demo.py' is used for this part. The model can be updated but the one used by default is in 'demo/inference-config.yaml'. 
 
 The parse can be updated according to the type of results needed:
 
