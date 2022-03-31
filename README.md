@@ -126,6 +126,5 @@ python Classification_phase/demo_keypoint_approach.py
 
 <p align="center">
 | ```Multi-fight```|
-|:---:|
 |<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/shooting.gif" width="150%" height="30%">|
 <p>
