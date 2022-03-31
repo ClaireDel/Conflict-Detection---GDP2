@@ -33,7 +33,7 @@ python Segmentation_phase/demo/demo.py
 - use --write to save the image, camera or video result.
 - use --showFps to show the fps (this fps includes the detection part).
 
-...NOTES: Demo videos gif
+...NOTES: 
 model folder in the drive: ...
 
 <p align="center">
@@ -63,8 +63,6 @@ python Classification_phase/Feature_Approach/preprocessing_vgg.py
 ```
 python Classification_phase/Feature_Approach/training_vgg.py
 ```
-...pickles
-
 
 #### Testing on pictures <br/> 
 - Testing the Neural Network to obtain predictions on images
@@ -95,7 +93,6 @@ python Classification_phase/pre_processing.py
 |:---:|:---:|
 |<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/crop.jpg" width="150%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/csv.png" width="150%" height="30%">|
 
-... csv files
 
 #### Training <br/> 
 - Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed data
