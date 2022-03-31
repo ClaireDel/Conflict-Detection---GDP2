@@ -47,6 +47,8 @@ ${POSE_ROOT}
 ├── **demo.py**
 ```
 
+... ARCHITECTURE
+
 ### Running <br/> 
 The same python code 'demo.py' is used for this part. The model can be updated but the one used by default is in 'demo/inference-config.yaml'. 
 
