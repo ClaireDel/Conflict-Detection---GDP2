@@ -112,6 +112,7 @@ python Classification_phase/training.py
   Fig: Confusion Matrix for SVM
 </p>
 
+- Results
 ###    
 |                | Precision | Recall | F1-score |
 |--------------------|------|----------|-------|
