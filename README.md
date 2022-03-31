@@ -110,6 +110,7 @@ python Classification_phase/training.py
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/confusionmatrix_svm.png" width=200 height=auto> <br/> 
   Fig: Confusion Matrix for SVM
+</p>
 
 - Results   
 |                | Precision | Recall | F1-score |
@@ -120,7 +121,6 @@ python Classification_phase/training.py
 | Macro-average | 94 |     92 |  93 |  
 | Weighted-Average | 94 |     94 |  94 |  
   
-</p>
 
 
 #### Testing on pictures <br/> 
