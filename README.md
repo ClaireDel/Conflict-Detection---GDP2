@@ -8,8 +8,8 @@ fichiers à la source à chaque fois
 expliquer les chemins et param
 
 <p align="center">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/pictures.jpg" width=400 height=auto> <br/> 
-  Fig: Example of segmentation
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/intro.jpg" width=400 height=auto> <br/> 
+  Fig: Model Inference
 </p>
 
 
