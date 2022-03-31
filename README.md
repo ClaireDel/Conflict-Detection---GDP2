@@ -16,9 +16,7 @@ expliquer les chemins et param
 ## 1. Dataset
 [COCO download](http://cocodataset.org/#download): COCO dataset used to train the segmentation model (HRNet)
 
-[Original dataset download](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr):  dataset used
-
-[Cleaned dataset download](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr): cleaned dataset (images cropped + black backgrounds)
+[Dataset download](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr):  Original and cleaned dataset (images cropped + black backgrounds)
 
 | ```Original image``` | ```Image cropped``` |
 |:---:|:---:|
