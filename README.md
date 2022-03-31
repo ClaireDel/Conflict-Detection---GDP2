@@ -122,6 +122,7 @@ python Classification_phase/training.py
   
 </p>
 
+
 #### Testing on pictures <br/> 
 - Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
 ```
