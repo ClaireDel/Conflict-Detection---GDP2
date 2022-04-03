@@ -172,6 +172,6 @@ python Classification_phase/demo_keypoint_approach.py
 <p>
 
 ### Airport scenarios <br/> 
-
+| ```Scenario 1``` | ```Scenario 2``` |```Scenario 3``` | ```Scenario 4``` |```Scenario 5``` | ```Scenario 6``` |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air1.jpg" width="80%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air2.jpg" width="100%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air3.jpg" width="80%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air4.jpg" width="100%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air5.jpg" width="80%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air6.jpg" width="100%" height="30%">|
