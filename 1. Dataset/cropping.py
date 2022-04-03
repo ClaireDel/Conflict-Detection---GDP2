@@ -188,12 +188,13 @@ def box_to_center_scale(box, model_image_width, model_image_height):
     return center, scale
 
 
+
 def parse_args(filename):
     parser = argparse.ArgumentParser(description='Train keypoints network')
     # general
     parser.add_argument('--cfg', type=str, default='demo/inference-config.yaml')
     parser.add_argument('--image', default = filename, type=str) 
-    parser.add_argument('--write', default = 0, action='store_true')
+    parser.add_argument('--write', default = 1, action='store_true')
     
     parser.add_argument('opts',
                         help='Modify config options using the command-line',
@@ -211,8 +212,8 @@ def parse_args(filename):
 
 
 # Filename PATH IN and OUT
-folder_in = "/Users/clair/Desktop/bis/pushing/"
-folder_exit = "/Users/clair/Desktop/test/"
+folder_in = "/Users/clair/Desktop/data/"
+folder_exit = "/Users/clair/Desktop/data_crop/"
 
     
     
@@ -302,14 +303,11 @@ def main():
                 # Cropping (initial image)
                 crop = image_bgr.copy()
                 crop = crop[int(box[0][1]):int(box[1][1]), int(box[0][0]):int(box[1][0])]
-                
-                # Save the cropped image
-                cv2.imwrite(folder_exit + filename, crop)
-             
+                          
 
             if args.write:
                 save_path = folder_exit + filename 
-                cv2.imwrite(save_path,image_b)
+                cv2.imwrite(save_path,crop_b)
                 print('the result image has been saved as {}'.format(save_path))
     
         
