@@ -104,11 +104,10 @@ python Classification_phase/Feature_Approach/prediction_vgg.py
 python Classification_phase/Feature_Approach/demo_feature_approach.py
 ```
 
-...NOTES:  Demo photos and videos gif
-![1 person](inference_1.jpg)
-Fig: 1 person inference
+| ```Punching``` | ```Demo``` |
+|:---:|:---:|
+|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/punching_vgg.png" width="100%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/demo_vgg.gif" width="70%" height="30%">|
 
- <br/> 
  
 ### Keypoint Approach
 #### Data Pre-processing <br/> 
