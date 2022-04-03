@@ -106,7 +106,7 @@ python Classification_phase/Feature_Approach/demo_feature_approach.py
 
 | ```Pushing``` | ```Demo``` |
 |:---:|:---:|
-|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/pushing_vgg.png" width="80%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/demo_vgg.gif" width="100%" height="30%">|
+|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/pushing_vgg.png" width="90%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/demo_vgg.gif" width="100%" height="30%">|
 
  
 ### Keypoint Approach
@@ -128,7 +128,7 @@ python Classification_phase/training.py
 ```
 
 <p align="center">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/confusionmatrix_svm.png" width=200 height=auto> <br/> 
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/confusionmatrix_svm.png" width=300 height=auto> <br/> 
   Fig: Confusion Matrix for SVM
 </p>
 
