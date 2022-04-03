@@ -173,6 +173,5 @@ python Classification_phase/demo_keypoint_approach.py
 
 ### Airport scenarios <br/> 
 
-| ```Pushing``` | ```Demo``` |
-|:---:|:---:|
-|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/pushing_vgg.png" width="80%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/demo_vgg.gif" width="100%" height="30%">|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air1.jpg" width="80%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air2.jpg" width="100%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air3.jpg" width="80%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air4.jpg" width="100%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air5.jpg" width="80%" height="30%">|<img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/air6.jpg" width="100%" height="30%">|
