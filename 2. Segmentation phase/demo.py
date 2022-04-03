@@ -202,7 +202,7 @@ def parse_args():
     parser.add_argument('--video', type=str)
     parser.add_argument('--webcam', default = 1, action='store_true')
     parser.add_argument('--image', type=str, default='/Users/clair/Desktop/000003072.jpg')
-    parser.add_argument('--write', default = 0, action='store_true')
+    parser.add_argument('--write', default = 1, action='store_true')
     parser.add_argument('--showFps',action='store_true', default=1)
 
     parser.add_argument('opts',
@@ -261,9 +261,9 @@ def main():
     
         if args.webcam or args.video:
             if args.write:
-                save_path = 'demo.avi'
+                save_path = '/Users/clair/Desktop/scenarios/segmentation.avi'
                 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-                out = cv2.VideoWriter(save_path,fourcc, 5.0, (int(vidcap.get(3)),int(vidcap.get(4)))) #24
+                out = cv2.VideoWriter(save_path,fourcc, 30.0, (int(vidcap.get(3)),int(vidcap.get(4)))) #24
             while True:
                 ret, image_bgr = vidcap.read()
                 if ret:
