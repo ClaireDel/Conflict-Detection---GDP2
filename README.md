@@ -170,7 +170,7 @@ python Classification_phase/classification_model_experiment.ipynb
 python Classification_phase/prediction.py
 ```
 <p align="center">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction.jpg" width=300 height=auto> 
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction.jpg" width=200 height=auto> 
   <br/> 
   Fig: Image prediction example (Keypoints Approach - SVM)
 </p>
@@ -180,7 +180,7 @@ python Classification_phase/prediction.py
 python Classification_phase/classification_model_experiment.ipynb
 ```
 <p align="center">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction_nn.png" width=200 height=auto> 
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction_nn.png" width=300 height=auto> 
   <br/> 
   Fig: Image prediction example (Keypoints Approach - Neural Network)
 </p>
