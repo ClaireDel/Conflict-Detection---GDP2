@@ -149,7 +149,7 @@ python Classification_phase/classification_model_experiment.ipynb
 
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/confusionmatrix_nn.png" width=300 height=auto> <br/> 
-  Fig: Confusion Matrix for SVM
+  Fig: Confusion Matrix for Neural Network
 </p>
 
 - Results
@@ -172,7 +172,7 @@ python Classification_phase/prediction.py
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction.jpg" width=200 height=auto> 
   <br/> 
-  Fig: Image prediction example
+  Fig: Image prediction example (Keypoints Approach - SVM)
 </p>
 
 - Testing the Neural Network classifier to obtain predictions on images
@@ -180,9 +180,9 @@ python Classification_phase/prediction.py
 python Classification_phase/classification_model_experiment.ipynb
 ```
 <p align="center">
-  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction_nn.jpg" width=200 height=auto> 
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction_nn.png" width=200 height=auto> 
   <br/> 
-  Fig: Image prediction example
+  Fig: Image prediction example (Keypoints Approach - Neural Network)
 </p>
 
 
@@ -199,7 +199,7 @@ python Classification_phase/demo_keypoint_approach.py
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/fight.gif" width="150%" height="30%">
   <br/> 
-  Fig: Multi-fight inference
+  Fig: Multi-fight inference (SVM)
 <p>
   
 - Testing the Neural Network classifier to obtain real-time predictions on video launch
@@ -210,7 +210,7 @@ python Classification_phase/classification_model_experiment.ipynb
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/demo_nn.gif" width="150%" height="30%">
   <br/> 
-  Fig: Multi-fight inference
+  Fig: Multi-fight inference (NN)
 <p>
 
 ### Airport scenarios <br/> 
