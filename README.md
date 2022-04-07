@@ -139,11 +139,32 @@ python Classification_phase/training.py
 | Accuracy    |     |          |  94% | 
 | Macro-average | 94% |     92% |  93% |  
 | Weighted-Average | 94% |     94% |  94% |  
+
+
+- Training the Neural Network Classifier using the pre-processed data
+```
+python Classification_phase/classification_model_experiment.ipynb
+```
+
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/confusionmatrix_nn.png" width=300 height=auto> <br/> 
+  Fig: Confusion Matrix for SVM
+</p>
+
+- Results
+###    
+|                | Precision | Recall | F1-score |
+|--------------------|------|----------|-------|
+| Normal     | 97%|     94% |  95% |  
+| Fight    | 91% |     95% |  93% |  
+| Accuracy    |     |          |  94% | 
+| Macro-average | 94% |     94% |  94% |  
+| Weighted-Average | 94% |     94% |  94% |
   
 
 
 #### Testing on pictures <br/> 
-- Testing the classifier (SVM or Multi-Layer Perceptron) to obtain predictions on images
+- Testing the classifier to obtain predictions on images
 ```
 python Classification_phase/prediction.py
 ```
