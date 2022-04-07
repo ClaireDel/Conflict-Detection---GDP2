@@ -141,6 +141,7 @@ python Classification_phase/training.py
 | Weighted-Average | 94% |     94% |  94% |  
 
 
+
 - Training the Neural Network Classifier using the pre-processed data
 ```
 python Classification_phase/classification_model_experiment.ipynb
@@ -164,7 +165,7 @@ python Classification_phase/classification_model_experiment.ipynb
 
 
 #### Testing on pictures <br/> 
-- Testing the classifier to obtain predictions on images
+- Testing the SVM classifier to obtain predictions on images
 ```
 python Classification_phase/prediction.py
 ```
@@ -174,8 +175,19 @@ python Classification_phase/prediction.py
   Fig: Image prediction example
 </p>
 
+- Testing the Neural Network classifier to obtain predictions on images
+```
+python Classification_phase/classification_model_experiment.ipynb
+```
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction_nn.jpg" width=200 height=auto> 
+  <br/> 
+  Fig: Image prediction example
+</p>
+
+
 #### Video launch <br/> 
-- Testing the classifier (SVM or Multi-Layer Perceptron) to obtain real-time predictions on video launch
+- Testing the SVM classifier to obtain real-time predictions on video launch
 ```
 python Classification_phase/demo_keypoint_approach.py
 ```
@@ -186,6 +198,17 @@ python Classification_phase/demo_keypoint_approach.py
 
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/fight.gif" width="150%" height="30%">
+  <br/> 
+  Fig: Multi-fight inference
+<p>
+  
+- Testing the Neural Network classifier to obtain real-time predictions on video launch
+```
+python Classification_phase/classification_model_experiment.ipynb
+```
+
+<p align="center">
+  <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/demo_nn.gif" width="150%" height="30%">
   <br/> 
   Fig: Multi-fight inference
 <p>
