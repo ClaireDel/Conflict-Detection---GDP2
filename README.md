@@ -111,7 +111,7 @@ python Classification_phase/Features_Approach/demo_feature_approach.py
 #### Data Pre-processing <br/> 
 - Storing the key points in CSV files after normalization on pre-cropped images
 ```
-python Classification_phase/Keypoints appraoch/pre_processing.py
+python Classification_phase/Keypoints_approach/pre_processing.py
 ```
 
 | ```Dataset sample``` | ```Data associated in the CSV file``` |
@@ -122,7 +122,7 @@ python Classification_phase/Keypoints appraoch/pre_processing.py
 #### Training <br/> 
 - Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed data
 ```
-python Classification_phase/Keypoints appraoch/training.py
+python Classification_phase/Keypoints_approach/training.py
 ```
 
 <p align="center">
@@ -144,7 +144,7 @@ python Classification_phase/Keypoints appraoch/training.py
 
 - Training the Neural Network Classifier using the pre-processed data
 ```
-python Classification_phase/Keypoints_appraoch/training_nn.ipynb
+python Classification_phase/Keypoints_approach/training_nn.ipynb
 ```
 
 <p align="center">
@@ -167,7 +167,7 @@ python Classification_phase/Keypoints_appraoch/training_nn.ipynb
 #### Testing on pictures <br/> 
 - Testing the SVM classifier to obtain predictions on images
 ```
-python Classification_phase/Keypoints_appraoch/prediction.py
+python Classification_phase/Keypoints_approach/prediction.py
 ```
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction.jpg" width=200 height=auto> 
@@ -178,7 +178,7 @@ python Classification_phase/Keypoints_appraoch/prediction.py
 - Testing the Neural Network classifier to obtain predictions on images
 
 ```
-python Classification_phase/testing_nn.py
+python Classification_phase/Keypoints_approach/testing_nn.py
 ```
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction_nn.png" width=300 height=auto> 
@@ -190,7 +190,7 @@ python Classification_phase/testing_nn.py
 #### Video launch <br/> 
 - Testing the SVM classifier to obtain real-time predictions on video launch
 ```
-python Classification_phase/Keypoints_appraoch/demo_keypoint_approach.py
+python Classification_phase/Keypoints_approach/demo_keypoint_approach.py
 ```
 
 | ```Shooting``` | ```Punching``` |
@@ -205,8 +205,8 @@ python Classification_phase/Keypoints_appraoch/demo_keypoint_approach.py
   
 - Testing the Neural Network classifier to obtain real-time predictions on video launch
 ```
-Trained model: Classification_phase/Keypoints appraoch/NN
-python Classification_phase/Keypoints_appraoch/testing_nn.py
+Trained model NN: Classification_phase/Keypoints_approach/NN
+python Classification_phase/Keypoints_approach/testing_nn.py
 ```
 
 <p align="center">
