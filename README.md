@@ -75,7 +75,7 @@ python Segmentation_phase/demo/demo.py
 #### Data Pre-processing <br/> 
 - Plotting the key points from pre-cropped images on a blackbackground for the training 
 ```
-python Classification_phase/Feature_Approach/preprocessing_vgg.py
+python Classification_phase/Features_Approach/preprocessing_vgg.py
 ```
 
 <p align="center">
@@ -86,20 +86,20 @@ python Classification_phase/Feature_Approach/preprocessing_vgg.py
 #### Training <br/> 
 - Training the pre-trained model VGG16 by transfer learning using the pre-processed data
 ```
-python Classification_phase/Feature_Approach/training_vgg.py
+python Classification_phase/Features_Approach/training_vgg.py
 ```
 [Model download](https://drive.google.com/drive/folders/1Ezkcq8TW7NJFyS-yKSb8dmNqIFabs2nr): Model trained for using in the testing
 
 #### Testing on pictures <br/> 
 - Testing the Neural Network to obtain predictions on images
 ```
-python Classification_phase/Feature_Approach/prediction_vgg.py
+python Classification_phase/Features_Approach/prediction_vgg.py
 ```
 
 #### Video launch <br/> 
 - Testing the Neural Network to obtain real-time predictions on video launch
 ```
-python Classification_phase/Feature_Approach/demo_feature_approach.py
+python Classification_phase/Features_Approach/demo_feature_approach.py
 ```
 
 | ```Pushing``` | ```Demo``` |
@@ -111,7 +111,7 @@ python Classification_phase/Feature_Approach/demo_feature_approach.py
 #### Data Pre-processing <br/> 
 - Storing the key points in CSV files after normalization on pre-cropped images
 ```
-python Classification_phase/pre_processing.py
+python Classification_phase/Keypoints appraoch/pre_processing.py
 ```
 
 | ```Dataset sample``` | ```Data associated in the CSV file``` |
@@ -122,7 +122,7 @@ python Classification_phase/pre_processing.py
 #### Training <br/> 
 - Training the classifier (SVM or Multi-Layer Perceptron) using the pre-processed data
 ```
-python Classification_phase/training.py
+python Classification_phase/Keypoints appraoch/training.py
 ```
 
 <p align="center">
@@ -144,8 +144,7 @@ python Classification_phase/training.py
 
 - Training the Neural Network Classifier using the pre-processed data
 ```
-python Classification_phase/classification_model_experiment.ipynb
-python Classification_phase/tracking.py
+python Classification_phase/Keypoints_appraoch/training_nn.ipynb
 ```
 
 <p align="center">
@@ -168,7 +167,7 @@ python Classification_phase/tracking.py
 #### Testing on pictures <br/> 
 - Testing the SVM classifier to obtain predictions on images
 ```
-python Classification_phase/prediction.py
+python Classification_phase/Keypoints_appraoch/prediction.py
 ```
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction.jpg" width=200 height=auto> 
@@ -177,9 +176,9 @@ python Classification_phase/prediction.py
 </p>
 
 - Testing the Neural Network classifier to obtain predictions on images
+
 ```
-python Classification_phase/classification_model_experiment.ipynb
-python Classification_phase/tracking.py
+python Classification_phase/testing_nn.py
 ```
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction_nn.png" width=300 height=auto> 
@@ -191,7 +190,7 @@ python Classification_phase/tracking.py
 #### Video launch <br/> 
 - Testing the SVM classifier to obtain real-time predictions on video launch
 ```
-python Classification_phase/demo_keypoint_approach.py
+python Classification_phase/Keypoints_appraoch/demo_keypoint_approach.py
 ```
 
 | ```Shooting``` | ```Punching``` |
@@ -206,8 +205,8 @@ python Classification_phase/demo_keypoint_approach.py
   
 - Testing the Neural Network classifier to obtain real-time predictions on video launch
 ```
-python Classification_phase/classification_model_experiment.ipynb
-python Classification_phase/tracking.py
+Trained model: Classification_phase/Keypoints appraoch/NN
+python Classification_phase/Keypoints_appraoch/testing_nn.py
 ```
 
 <p align="center">
