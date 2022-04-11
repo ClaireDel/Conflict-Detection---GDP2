@@ -145,6 +145,7 @@ python Classification_phase/training.py
 - Training the Neural Network Classifier using the pre-processed data
 ```
 python Classification_phase/classification_model_experiment.ipynb
+python Classification_phase/tracking.py
 ```
 
 <p align="center">
@@ -178,6 +179,7 @@ python Classification_phase/prediction.py
 - Testing the Neural Network classifier to obtain predictions on images
 ```
 python Classification_phase/classification_model_experiment.ipynb
+python Classification_phase/tracking.py
 ```
 <p align="center">
   <img src="https://github.com/ClaireDel/Conflict-Detection---GDP2/blob/main/pictures/prediction_nn.png" width=300 height=auto> 
@@ -205,6 +207,7 @@ python Classification_phase/demo_keypoint_approach.py
 - Testing the Neural Network classifier to obtain real-time predictions on video launch
 ```
 python Classification_phase/classification_model_experiment.ipynb
+python Classification_phase/tracking.py
 ```
 
 <p align="center">
